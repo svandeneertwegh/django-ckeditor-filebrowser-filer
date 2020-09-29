@@ -7,7 +7,7 @@ from django.conf import settings
 from django import urls
 from django.http import HttpResponseRedirect
 
-from filer.models import File
+from filer.models.filemodels import File
 from filer.server.views import server
 
 try:
